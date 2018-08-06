@@ -64,3 +64,11 @@ return (farenheit - 32) / 1.8;
 var number1 = parseFloat(prompt("enter farenheit:"));
 
 alert(temperature(number1));
+
+var volume = function(gallons, liters){
+return gallons * 3.78541;
+}
+
+var number1 = parseFloat(prompt("enter gallons:"));
+
+alert(volume(number1));
